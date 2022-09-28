@@ -1,7 +1,7 @@
 <h1>Product preview card component</h1>
 <hr>
 <p>
- Um exercício bom para praticar seus conhecimentos.
+ Um exercício bom para praticar seus conhecimentos.<br>
  Tecnologias utilizadas:
  <ul>
   <li>HTML 5</li>
