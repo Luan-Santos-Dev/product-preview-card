@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(30, 38%, 92%);
+}
+
+.texto-perfume {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+}
+
+.titulo-perfume {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+}
+
+.texto-perfume-explicativo {
+    font-size: 13px;
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+}
+
+.bloco-1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 2.2em;
+    font-family: 'Fraunces', serif;
+}
+
+.bloco-2 {
+    color:hsl(228, 12%, 48%);
+    font-size: 0.9em;
+    text-decoration: line-through;
+}
+
+button {
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    background: hsl(158, 36%, 37%);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #main {
+        height: 560px;
+        width: 320px;
+        border-radius: 10px;
+    }
+
+    .imagem {
+        background: url(../images/image-product-mobile.jpg) no-repeat top center;
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+        height: 230px;
+    }
+
+    .conteudo {
+        height: 300px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #main {
+        height: 560px;
+        width: 320px;
+        border-radius: 10px;
+    }
+
+    .imagem {
+        background: url(../images/image-product-mobile.jpg) no-repeat top center;
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+        height: 230px;
+    }
+
+    .conteudo {
+        height: 300px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #main {
+        height: 550px;
+        width: 700px;
+        border-radius: 10px;
+    }
+
+    .conteudo {
+        height: 550px;
+    }
+
+    .imagem {
+        background: url(../images/image-product-desktop.jpg) no-repeat top center;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+        height: 550px;
+    }
+
+    .titulo-perfume {
+        margin: 20px 0px;
+        font-size: 3em;
+    }
+
+    .texto-perfume-explicativo {
+        margin-right: 35px;
+        font-size: 1.1em;
+    }
+
+    .preco {
+        margin: 30px 0px;
+    }
+
+    button {
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #main {
+        height: 550px;
+        width: 700px;
+        border-radius: 10px;
+    }
+
+    .conteudo {
+        height: 550px;
+    }
+
+    .imagem {
+        background: url(../images/image-product-desktop.jpg) no-repeat top center;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+        height: 550px;
+    }
+
+    .titulo-perfume {
+        margin: 20px 0px;
+        font-size: 3em;
+    }
+
+    .texto-perfume-explicativo {
+        margin-right: 35px;
+        font-size: 1.1em;
+    }
+
+    .preco {
+        margin: 30px 0px;
+    }
+
+    button {
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    #main {
+        height: 550px;
+        width: 700px;
+        border-radius: 10px;
+    }
+
+    .conteudo {
+        height: 550px;
+    }
+
+    .imagem {
+        background: url(../images/image-product-desktop.jpg) no-repeat top center;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+        height: 550px;
+    }
+
+    .titulo-perfume {
+        margin: 20px 0px;
+        font-size: 3em;
+    }
+
+    .texto-perfume-explicativo {
+        margin-right: 35px;
+        font-size: 1.1em;
+    }
+
+    .preco {
+        margin: 30px 0px;
+    }
+
+    button {
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
