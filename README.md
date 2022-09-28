@@ -3,11 +3,11 @@
 <p>
  Um exercício bom para praticar seus conhecimentos.
  Tecnologias utilizadas:
- <ol>
+ <ul>
   <li>HTML 5</li>
   <li>CSS 3</li>
   <li>Bootstrap 4</li>
- </ol>
+ </ul>
 </p>
 <hr>
 <p>
